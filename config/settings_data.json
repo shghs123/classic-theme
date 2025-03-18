@@ -172,7 +172,7 @@
       "scheme-4": {
         "settings": {
           "background": "#000000",
-          "background_gradient": "radial-gradient(\n      ellipse at 50% 40%,\n      #211F54 0%,\n      #211F54 30%,\n      #000000 70%\n    ),\n    radial-gradient(\n      circle at 70% 30%,\n      rgba(69, 58, 209, 0.4) 0%,\n      rgba(33, 31, 84, 0) 50%\n    )",
+          "background_gradient": "radial-gradient(\n  ellipse at 50% 40%,\n  #211F54 0%,\n  #211F54 10%,\n  #1A1A1A 70%\n),\nradial-gradient(\n  circle at 70% 30%,\n  rgba(69, 58, 209, 0.4) 0%,\n  rgba(33, 31, 84, 0) 50%\n)",
           "text": "#f4f3ff",
           "button": "#f4f3ff",
           "button_label": "#121212",
