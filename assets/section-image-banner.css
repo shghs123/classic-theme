@@ -6,8 +6,22 @@
   isolation: isolate;
 }
 
+.banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit;
+  filter: blur(130px);
+  z-index: -1;
+}
+
 .banner__box {
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
 /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */
