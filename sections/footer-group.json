@@ -17,7 +17,7 @@
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "Find us on socials:",
+            "heading": "<strong>Find us on socials:</strong>",
             "menu": "social"
           }
         }

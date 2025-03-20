@@ -30,14 +30,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "<strong>Timeless Style, Affordable Price</strong>",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>Inspired by luxury, crafted for the modern individual. Our pieces bring you premium aesthetics at a fraction of the cost.</p>"
           }
         }
       },
@@ -183,8 +183,8 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "<strong>Limited</strong>",
+            "text": "<p>We rotate collections monthly to keep styles fresh. Snag exclusive designs before they’re gone forever!</p>",
             "link_label": "",
             "link": ""
           }
@@ -192,8 +192,8 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "<strong>Elegant</strong>",
+            "text": "<p>Timeless elegance meets modern craftsmanship. Each piece is designed to exude sophistication and class.</p>",
             "link_label": "",
             "link": ""
           }
@@ -201,8 +201,8 @@
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "<strong>Handpicked</strong>",
+            "text": "<p>We hand-pick every piece to ensure only the most stylish and high-quality accessories make it to you.</p>",
             "link_label": "",
             "link": ""
           }
