@@ -57,7 +57,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "collection": "all",
+        "collection": "basic-watches",
         "products_to_show": 3,
         "title": "BASIC",
         "heading_size": "h1",
@@ -85,7 +85,7 @@
     "featured_collection_Xt33Kb": {
       "type": "featured-collection",
       "settings": {
-        "collection": "all",
+        "collection": "premium-watches",
         "products_to_show": 3,
         "title": "PREMIUM",
         "heading_size": "h1",
@@ -113,7 +113,7 @@
     "featured_collection_JUhwBJ": {
       "type": "featured-collection",
       "settings": {
-        "collection": "all",
+        "collection": "luxury-watches",
         "products_to_show": 3,
         "title": "LUXURY",
         "heading_size": "h1",
