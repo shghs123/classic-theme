@@ -26,6 +26,18 @@
   gap: 7.75rem;
 }
 
+@media screen and (max-width: 1350px) {
+  .product-grid {
+    gap: 5rem;
+  }
+}
+
+@media screen and (max-width: 1075px) {
+  .product-grid {
+    gap: 3rem;
+  }
+}
+
 .product-grid .grid__item {
   flex: 0 0 calc(30% - 1.5rem);
   min-width: 280px;
