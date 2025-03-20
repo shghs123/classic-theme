@@ -25,7 +25,7 @@
       }
     },
     "rich_text": {
-      "type": "rich-text",
+      "type": "rich-text-no-animation",
       "blocks": {
         "heading": {
           "type": "heading",
