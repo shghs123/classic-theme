@@ -144,13 +144,13 @@
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "luxury-bracelets"
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "quartz-watch-for-men",
             "second_image": false
           }
         },
@@ -167,7 +167,7 @@
         "collection-1"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "EXPLORE MORE",
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
