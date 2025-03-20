@@ -50,7 +50,7 @@
           "settings": {
             "heading": "Specification",
             "icon": "ruler",
-            "content": "",
+            "content": "{{ product.description }}",
             "page": ""
           }
         },
