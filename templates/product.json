@@ -45,10 +45,6 @@
             "show_gift_card_recipient": false
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {}
-        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
@@ -63,7 +59,7 @@
           "settings": {
             "heading": "Shipping Information",
             "icon": "truck",
-            "content": "<p>All orders are processed within 24-48 hours.</p><p>Worldwide 6-9 Day Express Shipping free on all watches & collections.</p>",
+            "content": "<p>All orders are processed within 24 hours.</p><p>Worldwide 6-9 Day Express Shipping on all watches & collections.</p>",
             "page": ""
           }
         }
@@ -75,7 +71,6 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
         "collapsible-row-0",
         "collapsible-row-1"
       ],
