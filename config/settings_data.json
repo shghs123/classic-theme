@@ -392,7 +392,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".header__search {display: none !important;}"
+      ".header__search {display: none !important;}",
+      ".global-media-settings {border: none;}"
     ]
   }
 }
