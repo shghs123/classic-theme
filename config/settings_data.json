@@ -389,5 +389,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".header__search {display: none;}"
+    ]
   }
 }
