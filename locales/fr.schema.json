@@ -996,7 +996,7 @@
         }
       }
     },
-    "image-banner": {
+    "image-banner-watch": {
       "name": "Bannière avec image",
       "settings": {
         "image": {

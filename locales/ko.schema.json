@@ -996,7 +996,7 @@
         }
       }
     },
-    "image-banner": {
+    "image-banner-watch": {
       "name": "이미지 배너",
       "settings": {
         "image": {

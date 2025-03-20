@@ -10,7 +10,7 @@
 {
   "sections": {
     "image_banner": {
-      "type": "image-banner",
+      "type": "image-banner-watch",
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
