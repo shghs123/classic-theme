@@ -402,7 +402,7 @@
     "custom_css": [
       ".header__search {display: none !important;}",
       ".global-media-settings {border: none;}",
-      ".button {}"
+      ".section {background-color: black;}"
     ]
   }
 }
