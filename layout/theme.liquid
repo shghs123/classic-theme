@@ -253,6 +253,15 @@
           font-size: 1.6rem;
         }
       }
+
+      body:has(.main-blog) {
+        background-color: black;
+      }
+
+      #MainContent:has(.shopify-policy__container) {
+        min-height: 100vh;
+        padding-bottom: 32px;
+      }
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
