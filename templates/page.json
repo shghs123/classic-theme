@@ -40,7 +40,7 @@
         "judge_me_reviews_featured_carousel_9BeDGf"
       ],
       "custom_css": [
-        "div {background-color: black; color: white;}",
+        ".shopify-app-block {background: radial-gradient( ellipse at 50% 40%, #211F54 0%, #211F54 10%, #1A1A1A 70% ), radial-gradient( circle at 70% 30%, rgba(69, 58, 209, 0.4) 0%, rgba(33, 31, 84, 0) 50% ); background-color: black; color: white;}",
         "h2 {color: white;}"
       ],
       "settings": {
