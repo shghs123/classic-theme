@@ -401,10 +401,7 @@
   "platform_customizations": {
     "custom_css": [
       ".header__search {display: none !important;}",
-      ".global-media-settings {border: none;}",
-      ".section {background-color: black; color: white;}",
-      "h1,h2,h3,h4,h5,h6,p {color: white;}",
-      ".shopify-policy__container h1,h2,h3,h4,h5,h6,p {color: black;}"
+      ".global-media-settings {border: none;}"
     ]
   }
 }
