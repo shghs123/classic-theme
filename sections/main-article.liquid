@@ -1,5 +1,44 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 
+{%- style -%}
+  #MainContent {
+    background-color: black !important;
+  }
+
+  .article-template h1 {
+    color: white !important;
+  }
+  .article-template h2 {
+    color: white !important;
+  }
+  .article-template h3 {
+    color: white !important;
+  }
+  .article-template h4 {
+    color: white !important;
+  }
+  .article-template h5 {
+    color: white !important;
+  }
+  .article-template h6 {
+    color: white !important;
+  }
+  .article-template p {
+    color: white !important;
+  }
+  .article-template a {
+    color: white !important;
+  }
+
+  .article-template button {
+    color: white !important;
+  }
+
+  .article-template time {
+    color: rgba(255, 255, 255, 0.8);
+  }
+{%- endstyle -%}
+
 <article class="article-template">
   {%- for block in section.blocks -%}
     {%- case block.type -%}

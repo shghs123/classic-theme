@@ -14,6 +14,32 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .section {
+    background:
+      radial-gradient(
+        ellipse at 50% 40%,
+        #211F54 0%,
+        #211F54 10%,
+        #1A1A1A 70%
+      ),
+      radial-gradient(
+        circle at 70% 30%,
+        rgba(69, 58, 209, 0.4) 0%,
+        rgba(33, 31, 84, 0) 50%
+      );
+  }
+
+  .main-blog h1 {color: white!important;}
+  .main-blog h2 {color: white!important;}
+  .main-blog h3 {color: white!important;}
+  .main-blog h4 {color: white!important;}
+  .main-blog h5 {color: white!important;}
+  .main-blog h6 {color: white!important;}
+  .main-blog p {color: white!important;}
+  .main-blog a {color: white!important;}
+  .main-blog h3 a { color: white !important; }
+  .main-blog time {color: rgba(255, 255, 255, 0.8);}
 {%- endstyle -%}
 
 {%- paginate blog.articles by 6 -%}

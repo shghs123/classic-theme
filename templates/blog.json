@@ -12,11 +12,7 @@
     "main": {
       "type": "main-blog",
       "custom_css": [
-        ".main-blog {background-color: black; text: white;}",
-        "h1,h2,h3,h4,h5,h6,p {color: white;}",
-        "time {color: rgba(255, 255, 255, 0.8);}",
-        ".card__inner {border-radius: 16px !important;}",
-        ".article-card__image img {border-top-left-radius: 16px; border-top-right-radius: 16px;}"
+        
       ],
       "settings": {
         "layout": "collage",
