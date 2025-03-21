@@ -96,8 +96,8 @@
         "column-0": {
           "type": "column",
           "settings": {
-            "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "<strong>Free Shipping Over $100</strong>",
+            "text": "<p>Enjoy <strong>free shipping</strong> on all orders over <strong>$100</strong>. Shop now and get your luxury-inspired watches and bracelets delivered at no extra cost!</p>",
             "link_label": "",
             "link": ""
           }
@@ -105,8 +105,17 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "<strong>Secure & Trusted Checkout</strong>",
+            "text": "<p>Shop with confidence! Our secure checkout ensures your personal and payment details stay safe.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FfPyCy": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>24/7 Customer Support</strong>",
+            "text": "<p>Have a question? Head to the contact page. Our <strong>friendly support team</strong> is here to help you anytime, anywhere.</p>",
             "link_label": "",
             "link": ""
           }
@@ -114,7 +123,8 @@
       },
       "block_order": [
         "column-0",
-        "column-1"
+        "column-1",
+        "column_FfPyCy"
       ],
       "settings": {
         "title": "",
@@ -123,7 +133,7 @@
         "image_ratio": "adapt",
         "button_label": "",
         "button_link": "",
-        "columns_desktop": 2,
+        "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
         "color_scheme": "scheme-4",
