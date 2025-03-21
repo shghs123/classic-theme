@@ -90,59 +90,6 @@
         "padding_bottom": 12
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column-0": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>Free Shipping Over $100</strong>",
-            "text": "<p>Enjoy <strong>free shipping</strong> on all orders over <strong>$100</strong>. Shop now and get your luxury-inspired watches and bracelets delivered at no extra cost!</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>Secure & Trusted Checkout</strong>",
-            "text": "<p>Shop with confidence! Our secure checkout ensures your personal and payment details stay safe.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_FfPyCy": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>24/7 Customer Support</strong>",
-            "text": "<p>Have a question? Head to the contact page. Our <strong>friendly support team</strong> is here to help you anytime, anywhere.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column-0",
-        "column-1",
-        "column_FfPyCy"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "color_scheme": "scheme-4",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -164,7 +111,6 @@
   },
   "order": [
     "main",
-    "multicolumn",
     "related-products"
   ]
 }

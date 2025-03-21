@@ -45,17 +45,8 @@
         "column_Vj43Hd": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_BPdMnY": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "<strong>Free Shipping Over $100</strong>",
+            "text": "<p>Enjoy <strong>free shipping</strong> on <strong>all orders</strong> over $100. Shop now and get your luxury-inspired watches and bracelets delivered at no extra cost!</p>",
             "link_label": "",
             "link": ""
           }
@@ -63,8 +54,17 @@
         "column_NkeKzU": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "<strong>24/7 Customer Support</strong>",
+            "text": "<p>Have a question? Head to the contact page. Our friendly support team is here to help you anytime, anywhere.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BPdMnY": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Secure & Trusted Checkout</strong>",
+            "text": "<p>Shop with confidence! Our <strong>secure checkout</strong> ensures your personal and payment details stay safe.</p>",
             "link_label": "",
             "link": ""
           }
@@ -72,8 +72,8 @@
       },
       "block_order": [
         "column_Vj43Hd",
-        "column_BPdMnY",
-        "column_NkeKzU"
+        "column_NkeKzU",
+        "column_BPdMnY"
       ],
       "settings": {
         "title": "",
