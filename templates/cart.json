@@ -9,6 +9,36 @@
  */
 {
   "sections": {
+    "rich_text_no_animation_i88NQ9": {
+      "type": "rich-text-no-animation",
+      "blocks": {
+        "heading_QQxVyF": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_kGEt3N": {
+          "type": "text",
+          "settings": {
+            "text": "<p>🚚 Free shipping for orders above $100</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QQxVyF",
+        "text_kGEt3N"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
@@ -122,6 +152,7 @@
     }
   },
   "order": [
+    "rich_text_no_animation_i88NQ9",
     "cart-items",
     "cart-footer",
     "multicolumn_TnbVhU",
