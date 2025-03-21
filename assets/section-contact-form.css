@@ -30,6 +30,11 @@
   }
 }
 
+.contact__button button {
+  background-color: #000;
+  color: #fff;
+}
+
 @media screen and (min-width: 750px) {
   .contact__fields {
     display: grid;
