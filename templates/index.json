@@ -59,7 +59,7 @@
       "settings": {
         "collection": "basic-watches",
         "products_to_show": 3,
-        "title": "BASIC",
+        "title": "BASIC WATCHES",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -87,7 +87,7 @@
       "settings": {
         "collection": "premium-watches",
         "products_to_show": 3,
-        "title": "PREMIUM",
+        "title": "PREMIUM WATCHES",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -115,7 +115,7 @@
       "settings": {
         "collection": "luxury-watches",
         "products_to_show": 3,
-        "title": "LUXURY",
+        "title": "LUXURY WATCHES",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -167,7 +167,7 @@
         "collection-1"
       ],
       "settings": {
-        "heading": "EXPLORE MORE",
+        "heading": "EXPLORE BRACELETS & MORE..",
         "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "collage",
