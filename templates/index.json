@@ -37,7 +37,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Inspired by luxury, crafted for the modern individual. Our pieces bring you premium aesthetics at a fraction of the cost.</p>"
+            "text": "<p>Inspired by luxury, crafted for the modern gentleman. Our watches bring you premium aesthetics at a fraction of the cost.</p>"
           }
         }
       },
@@ -59,7 +59,7 @@
       "settings": {
         "collection": "basic-watches",
         "products_to_show": 3,
-        "title": "BASIC WATCHES",
+        "title": "ESSENTIAL WATCHES",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
