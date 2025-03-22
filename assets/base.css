@@ -2931,6 +2931,10 @@ details-disclosure > details {
   word-break: break-word;
 }
 
+.badge-limited {
+  background-color: rgba(75, 0, 130, 0.5) !important;
+}
+
 .gradient {
   background: rgb(var(--color-background));
   background: var(--gradient-background);

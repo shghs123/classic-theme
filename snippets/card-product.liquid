@@ -139,6 +139,13 @@
               >
                 {{- 'products.product.on_sale' | t -}}
               </span>
+            {%- elsif card_product.tags contains 'limited' -%}
+              <span
+                id="Badge-{{ section_id }}-{{ card_product.id }}"
+                class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }} badge-limited"
+              >
+                Limited
+              </span>
             {%- endif -%}
           </div>
         </div>
@@ -562,6 +569,13 @@
               class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
             >
               {{- 'products.product.on_sale' | t -}}
+            </span>
+          {%- elsif card_product.tags contains 'limited' -%}
+            <span
+              id="Badge-{{ section_id }}-{{ card_product.id }}"
+              class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }} badge-limited"
+            >
+              Limited
             </span>
           {%- endif -%}
         </div>

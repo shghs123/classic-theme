@@ -276,6 +276,18 @@
   justify-self: flex-start;
 }
 
+.card__badge span {
+  background-color: rgba(255, 59, 48, 0.6);
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 5px 14px;
+  font-size: 13px;
+  letter-spacing: 2px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
 .card__badge.top {
   align-self: flex-start;
   grid-row-start: 1;
