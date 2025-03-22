@@ -20,6 +20,9 @@
                   {%- if link.child_active %}
                     class="header__active-menu-item"
                   {% endif %}
+                  {%- if link.handle == 'sale' %}
+                    style="color: #FF3B30 !important; font-weight: bold;"
+                  {% endif %}
                 >
                   {{- link.title | escape -}}
                 </span>
@@ -91,6 +94,10 @@
             <span
               {%- if link.current %}
                 class="header__active-menu-item"
+              {% endif %}
+
+              {%- if link.handle == 'sale' %}
+                style="color: #FF3B30 !important; font-weight: bold;"
               {% endif %}
             >
               {{- link.title | escape -}}
