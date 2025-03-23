@@ -147,6 +147,18 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   z-index: 0;
 }
 
+@media screen and (max-width: 767px) {
+  .isolate {
+    margin-top: -1px !important;
+    margin-bottom: -1px !important;
+  }
+
+  .section {
+    margin-top: -1px !important;
+    margin-bottom: -1px !important;
+  }
+}
+
 .section + .section {
   margin-top: var(--spacing-sections-mobile);
 }
