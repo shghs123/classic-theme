@@ -37,6 +37,36 @@
         padding-bottom: {{ section.settings.padding_bottom }}px;
       }
     }
+
+    .salepify-embed-widget-header, .salepify-embed-widget-title {
+      color: white!important;
+    }
+
+    .salepify-embed-widget-gift-item {
+      background-color: black!important;
+      border-color: black!important;
+    }
+
+    .salepify-embed-widget-gift-item__title {
+      color: white!important;
+    }
+
+    .salepify-embed-widget-pagination__pre:disabled {
+      opacity: 0.2;
+    }
+
+    .salepify-embed-widget-pagination__next:disabled {
+      opacity: 0.2;
+    }
+    .salepify-embed-widget-add-gift-btn {
+      background-color: rgba(255, 255, 255, 0.5);
+      color: white;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    .salepify-embed-widget-free-text {
+      font-weight: bold;
+    }
   {%- endstyle -%}
 
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
@@ -726,6 +756,34 @@
 
     <script type="application/ld+json">
       {{ product | structured_data }}
+    </script>
+
+    <script>
+      const observer = new MutationObserver((mutations) => {
+        const headerElement = document.querySelector('.salepify-embed-widget-header');
+        if (headerElement) {
+          setTimeout(() => {
+            headerElement.innerHTML =
+              '<span style="color: #8614DD">EXCLUSIVE OFFER:</span> Select your <span style="color: #8614DD">FREE</span> Luxury Bracelet with any watch purchase today!';
+            observer.disconnect();
+          }, 500);
+        }
+      });
+
+      const buttonObserver = new MutationObserver((mutations) => {
+        const buttonElements = document.querySelectorAll('.salepify-embed-widget-add-gift-btn');
+        if (buttonElements.length > 0) {
+          setTimeout(() => {
+            buttonElements.forEach((button) => {
+              button.textContent = 'Select';
+            });
+            buttonObserver.disconnect();
+          }, 500);
+        }
+      });
+
+      observer.observe(document.body, { childList: true, subtree: true });
+      buttonObserver.observe(document.body, { childList: true, subtree: true });
     </script>
   </div>
 </product-info>
