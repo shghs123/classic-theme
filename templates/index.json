@@ -9,19 +9,51 @@
  */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner-watch",
+    "image_with_text_dmAqTp": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8rk8E3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ceramic Bezel Sapphire Watch RAVEN Edition",
+            "heading_size": "h2"
+          }
+        },
+        "text_bk87fH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Introducing our flagship 2025 masterpiece. </p><p>Get it now—these exceptional timepieces won't remain available for long.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_Xqdyc3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy NOW",
+            "button_link": "shopify://products/ceramic-bezel-sapphire-watch-raven-edition",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_8rk8E3",
+        "text_bk87fH",
+        "button_Xqdyc3"
+      ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image": "shopify://shop_images/hero1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
         "image_behavior": "none",
-        "desktop_content_position": "bottom-center",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
         "desktop_content_alignment": "center",
-        "show_text_box": false,
-        "color_scheme": "scheme-65973a10-344b-4bb6-97dc-0759b252085d",
-        "stack_images_on_mobile": false,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-4",
+        "color_scheme": "scheme-4",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "rich_text": {
@@ -232,7 +264,7 @@
     }
   },
   "order": [
-    "image_banner",
+    "image_with_text_dmAqTp",
     "rich_text",
     "featured_collection",
     "featured_collection_Xt33Kb",
