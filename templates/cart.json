@@ -12,13 +12,6 @@
     "rich_text_no_animation_i88NQ9": {
       "type": "rich-text-no-animation",
       "blocks": {
-        "heading_QQxVyF": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
         "text_kGEt3N": {
           "type": "text",
           "settings": {
@@ -27,7 +20,6 @@
         }
       },
       "block_order": [
-        "heading_QQxVyF",
         "text_kGEt3N"
       ],
       "settings": {
@@ -35,8 +27,8 @@
         "content_alignment": "center",
         "color_scheme": "scheme-3",
         "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 24
+        "padding_top": 8,
+        "padding_bottom": 8
       }
     },
     "cart-items": {
