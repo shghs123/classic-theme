@@ -383,12 +383,10 @@
       document.addEventListener('DOMContentLoaded', function () {
         // Function to remove the attribution div
         function removeAttribution() {
-          setTimeout(function () {
-            const attributionDiv = document.querySelector('.kt-timer > div[style*="text-align: right"]');
-            if (attributionDiv) {
-              attributionDiv.remove();
-            }
-          }, 200);
+          const attributionDiv = document.querySelector('.kt-timer > div[style*="text-align: right"]');
+          if (attributionDiv) {
+            attributionDiv.remove();
+          }
         }
 
         // Initial check
