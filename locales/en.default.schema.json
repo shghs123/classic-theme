@@ -1328,6 +1328,7 @@
     },
     "image-with-text": {
       "name": "Image with text",
+      "name2": "Image with text custom",
       "settings": {
       "header": {
       "content": "Content"
