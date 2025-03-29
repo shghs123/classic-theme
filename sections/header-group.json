@@ -11,6 +11,36 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "announcement_bar_hHRGJ6": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_NdibFz": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_NdibFz"
+      ],
+      "settings": {
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "color_scheme": "",
+        "show_line_separator": true,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "17432428790534cbcc": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
     "header": {
       "type": "header",
       "settings": {
@@ -32,6 +62,8 @@
     }
   },
   "order": [
+    "announcement_bar_hHRGJ6",
+    "17432428790534cbcc",
     "header"
   ]
 }
