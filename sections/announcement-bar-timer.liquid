@@ -14,6 +14,12 @@
   endif
 -%}
 
+{% style %}
+  .kt-message {
+    font-size: 1.4rem !important;
+  }
+{% endstyle %}
+
 {% if social_icons %}
   {{ 'component-list-social.css' | asset_url | stylesheet_tag }}
 {% endif %}
@@ -158,6 +164,58 @@
     </div>
   </div>
 </div>
+
+<script>
+  (function () {
+    // Function to remove the attribution div
+    function removeAttribution() {
+      const attributionDiv = document.querySelector('.kt-timer > div[style*="text-align: right"]');
+      if (attributionDiv) {
+        attributionDiv.remove();
+      }
+    }
+
+    // Function to add emojis to timer component
+    function addEmojisToTimer() {
+      const timerComponent = document.querySelector('.kt-timer-component');
+      if (timerComponent) {
+        // Add emoji at the start if not already present
+        if (!timerComponent.firstChild || !timerComponent.firstChild.classList.contains('kt-timer-emoji')) {
+          const startEmoji = document.createElement('span');
+          startEmoji.className = 'kt-timer-emoji';
+          startEmoji.textContent = '⏳';
+          startEmoji.style.marginTop = '6px';
+          timerComponent.insertBefore(startEmoji, timerComponent.firstChild);
+        }
+
+        // Add emoji at the end if not already present
+        if (!timerComponent.lastChild || !timerComponent.lastChild.classList.contains('kt-timer-emoji')) {
+          const endEmoji = document.createElement('span');
+          endEmoji.className = 'kt-timer-emoji';
+          endEmoji.textContent = '⏳';
+          endEmoji.style.marginTop = '6px';
+          timerComponent.appendChild(endEmoji);
+        }
+      }
+    }
+
+    // Initial checks
+    removeAttribution();
+    addEmojisToTimer();
+
+    // Watch for changes in the DOM
+    const observer = new MutationObserver(function (mutations) {
+      for (const mutation of mutations) {
+        if (mutation.addedNodes.length) {
+          removeAttribution();
+          addEmojisToTimer();
+        }
+      }
+    });
+
+    observer.observe(document.body, { childList: true, subtree: true });
+  })();
+</script>
 
 {% schema %}
 {
