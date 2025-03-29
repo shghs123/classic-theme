@@ -12,7 +12,7 @@
   "type": "header",
   "sections": {
     "announcement_bar_hHRGJ6": {
-      "type": "announcement-bar",
+      "type": "announcement-bar-timer",
       "blocks": {
         "announcement_NdibFz": {
           "type": "announcement",

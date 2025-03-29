@@ -263,6 +263,10 @@
         min-height: 100vh;
         padding-bottom: 32px;
       }
+
+      .kt-message {
+        font-size: 1.4rem !important;
+      }
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
@@ -373,6 +377,34 @@
         recipientFormCollapsed: `{{ 'recipient.form.collapsed' | t }}`,
         countrySelectorSearchCount: `{{ 'localization.country_results_count' | t: count: '[count]' }}`,
       };
+    </script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        // Function to remove the attribution div
+        function removeAttribution() {
+          setTimeout(function () {
+            const attributionDiv = document.querySelector('.kt-timer > div[style*="text-align: right"]');
+            if (attributionDiv) {
+              attributionDiv.remove();
+            }
+          }, 200);
+        }
+
+        // Initial check
+        removeAttribution();
+
+        // Watch for changes in the DOM
+        const observer = new MutationObserver(function (mutations) {
+          for (const mutation of mutations) {
+            if (mutation.addedNodes.length) {
+              removeAttribution();
+            }
+          }
+        });
+
+        observer.observe(document.body, { childList: true, subtree: true });
+      });
     </script>
 
     {%- if settings.predictive_search_enabled -%}
